@@ -2,12 +2,38 @@
 display: flex;
 }
 
-
-
 .main-container{
   width: 100%;
 }
 
+.main-posts-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 598px;
+}
+
 .side-bar{
   min-height: 790px;
+}
+
+.post-card{
+  margin: 25px 40px;
+  width: 30rem;
+}
+
+.card-tag{
+  color: rgb(107, 107, 241) !important;
+  font-size: 11px;
+  margin: 0px 3px;
+}
+
+.likes{
+  font-size: small;
+  margin-top: 5px;
+}
+
+.create-post{
+  width: 50%;
+  margin: 50px 50px;
 }
